@@ -13,7 +13,7 @@ def is_admin(user_id: int) -> bool:
     return user_id in ADMIN_IDS
 
 # Твой новый адрес от Railway вместо ngrok
-RAILWAY_URL = ""
+RAILWAY_URL = "thelast125-production.up.railway.app"
 
 # Web App URL теперь будет вести на твой сайт на Railway (в меню статистики)
 WEB_APP_URL = f"{RAILWAY_URL}/stats"
